@@ -1,0 +1,40 @@
+.board-row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 105px;
+    background-color: #bbb;
+}
+
+.board-cell {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin: 1px 1px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.board-cell:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.info {
+    color: silver;
+}
